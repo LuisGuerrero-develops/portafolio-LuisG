@@ -63,20 +63,15 @@ header .subtitle {
     align-items: center;
 }
 
-/* NUEVA CLASE GENÉRICA PARA LOS ÍCONOS DE CONTACTO */
+
 .contact-icon {
-    width: 20px; /* Tamaño unificado para todos los íconos */
-    height: 20px; /* Tamaño unificado para todos los íconos */
-    margin-right: 0.5rem; /* Espacio entre el ícono y el texto */
-    vertical-align: middle; /* Alineación vertical con el texto */
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+    vertical-align: middle;
 }
 
-/* Si tenías estilos específicos para .contact-info i, ahora son redundantes o deben eliminarse
-   ya que estamos usando imágenes en su lugar */
-/* .contact-info i {
-    color: var(--accent-color);
-    margin-right: 0.5rem;
-} */
+
 
 .contact-info a {
     color: var(--text-color);
